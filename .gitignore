@@ -2,8 +2,12 @@
 .DS_Store
 # JSの開発用ライブラリファイル(200MB/40000ファイル)
 /node_modules
+# PHPの開発用ライブラリ
+vendor/
 # 全てのpsdファイル(40MBなど)
 *.psd
+# サーバなどの環境変数
+.env
 
 # 試しに「test.txt」を作ってみて反応しないか確認
 test.txt
